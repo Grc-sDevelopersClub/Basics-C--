@@ -1,26 +1,42 @@
 #include<iostream>
 
 
-using namespace std;
-int fun()
-{
-    int a=10,b=20;
-    // int sum;
+// using namespace std;
+// int fun()
+// {
+//     int a=10,b=20;
+//     // int sum;
     
-    // 
-    return a+b*a/b+b;
+//     // 
+//     return a+b*a/b+b;
 
-}
+// }
 
 int main()
 {
-    int i;
-    int end_limit=5;
-    while(end_limit!=0)
-    {
-        cout<<"Hello world"<<endl;
-        end_limit --;
-    }
+    int i=4;
+    double d=4.0;
+    std::string s="Hackerrank ";
+    int a;
+    double b;
+    std::string str;
+    std::cin>>a>>b;
+    std::cin.get();
+    getline(std::cin,str);
+
+    i=i+a;
+    d=d+b;
+    s=s+str;
+    std::cout<<i<<"\n"<<d<<"\n"<<s<<"\n";
+
+
+
+    // int end_limit=5;
+    // while(end_limit!=0)
+    // {
+    //     cout<<"Hello world"<<endl;
+    //     end_limit --;
+    // }
     // for(i=0;i<end_limit;i++)
     // {
     //     cout<<"hello World"<<endl;
