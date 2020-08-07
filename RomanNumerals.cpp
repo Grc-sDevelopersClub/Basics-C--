@@ -4,18 +4,31 @@
 #include<unordered_map>
 
 using namespace std;
-
-int uni(long long int num)
-{
-string str = to_string(num);
+int uni(string s) 
+{ 
+    // create a map to store the 
+    // frequency of characters 
     unordered_map<char, int> m; 
-
-    for (int i = 0; i < str.length(); i++) { 
-        m[str[i]]++; 
+  
+    // traverse the string 
+    for (int i = 0; i < s.length(); i++) { 
+        // increase the frequency of character 
+        m[s[i]]++; 
     } 
-
+  
     return m.size(); 
 } 
+// int uni(long long int num)
+// {
+//     string str = to_string(num);
+//     unordered_map<char, int> m; 
+
+//     for (int i = 0; i < str.length(); i++) { 
+//         m[str[i]]++; 
+//     } 
+
+//     return m.size(); 
+// } 
 
 
 void roman(int number)
@@ -33,13 +46,22 @@ void roman(int number)
         }
         i--;
     }
+    cout<<endl;
     
 }
 
 int main()
 {
-    int number=3549,dist;
-    dist=uni(number);
+    int n;
+    cin>>n;
+    for(int i=0;i<n;i++)
+    {
+    int number,dist;
+    cin>>number;
+    string str=to_string(number);
+    dist=uni(str);
     roman(dist);
+    cout<<dist<<endl;
+    }
     return 0;
 }
