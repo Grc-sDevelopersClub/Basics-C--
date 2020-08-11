@@ -1,6 +1,13 @@
 #include<iostream>
 using namespace std;
 
+// struct book
+// {
+//     string tittle;
+//     string author;
+//     string subject;
+//     int id;
+// };
 struct book
 {
     string tittle;
