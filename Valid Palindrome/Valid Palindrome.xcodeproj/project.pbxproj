@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B1E7DDE924DBD03000AC3A05 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1E7DDE824DBD03000AC3A05 /* main.cpp */; };
+		B1A7741C24F0199400D54439 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1A7741B24F0199400D54439 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		B1E7DDE324DBD02F00AC3A05 /* CopyFiles */ = {
+		B1A7741624F0199400D54439 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B1E7DDE524DBD02F00AC3A05 /* RomanNumerals */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RomanNumerals; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1E7DDE824DBD03000AC3A05 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B1A7741824F0199400D54439 /* Valid Palindrome */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Valid Palindrome"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1A7741B24F0199400D54439 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B1E7DDE224DBD02F00AC3A05 /* Frameworks */ = {
+		B1A7741524F0199400D54439 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,65 +38,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B1E7DDDC24DBD02F00AC3A05 = {
+		B1A7740F24F0199400D54439 = {
 			isa = PBXGroup;
 			children = (
-				B1E7DDE724DBD02F00AC3A05 /* RomanNumerals */,
-				B1E7DDE624DBD02F00AC3A05 /* Products */,
+				B1A7741A24F0199400D54439 /* Valid Palindrome */,
+				B1A7741924F0199400D54439 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B1E7DDE624DBD02F00AC3A05 /* Products */ = {
+		B1A7741924F0199400D54439 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B1E7DDE524DBD02F00AC3A05 /* RomanNumerals */,
+				B1A7741824F0199400D54439 /* Valid Palindrome */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B1E7DDE724DBD02F00AC3A05 /* RomanNumerals */ = {
+		B1A7741A24F0199400D54439 /* Valid Palindrome */ = {
 			isa = PBXGroup;
 			children = (
-				B1E7DDE824DBD03000AC3A05 /* main.cpp */,
+				B1A7741B24F0199400D54439 /* main.cpp */,
 			);
-			path = RomanNumerals;
+			path = "Valid Palindrome";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B1E7DDE424DBD02F00AC3A05 /* RomanNumerals */ = {
+		B1A7741724F0199400D54439 /* Valid Palindrome */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1E7DDEC24DBD03000AC3A05 /* Build configuration list for PBXNativeTarget "RomanNumerals" */;
+			buildConfigurationList = B1A7741F24F0199400D54439 /* Build configuration list for PBXNativeTarget "Valid Palindrome" */;
 			buildPhases = (
-				B1E7DDE124DBD02F00AC3A05 /* Sources */,
-				B1E7DDE224DBD02F00AC3A05 /* Frameworks */,
-				B1E7DDE324DBD02F00AC3A05 /* CopyFiles */,
+				B1A7741424F0199400D54439 /* Sources */,
+				B1A7741524F0199400D54439 /* Frameworks */,
+				B1A7741624F0199400D54439 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RomanNumerals;
-			productName = RomanNumerals;
-			productReference = B1E7DDE524DBD02F00AC3A05 /* RomanNumerals */;
+			name = "Valid Palindrome";
+			productName = "Valid Palindrome";
+			productReference = B1A7741824F0199400D54439 /* Valid Palindrome */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B1E7DDDD24DBD02F00AC3A05 /* Project object */ = {
+		B1A7741024F0199400D54439 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = "Gorakh Chavan";
 				TargetAttributes = {
-					B1E7DDE424DBD02F00AC3A05 = {
-						CreatedOnToolsVersion = 11.3.1;
+					B1A7741724F0199400D54439 = {
+						CreatedOnToolsVersion = 11.6;
 					};
 				};
 			};
-			buildConfigurationList = B1E7DDE024DBD02F00AC3A05 /* Build configuration list for PBXProject "RomanNumerals" */;
+			buildConfigurationList = B1A7741324F0199400D54439 /* Build configuration list for PBXProject "Valid Palindrome" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -104,29 +104,29 @@
 				en,
 				Base,
 			);
-			mainGroup = B1E7DDDC24DBD02F00AC3A05;
-			productRefGroup = B1E7DDE624DBD02F00AC3A05 /* Products */;
+			mainGroup = B1A7740F24F0199400D54439;
+			productRefGroup = B1A7741924F0199400D54439 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B1E7DDE424DBD02F00AC3A05 /* RomanNumerals */,
+				B1A7741724F0199400D54439 /* Valid Palindrome */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B1E7DDE124DBD02F00AC3A05 /* Sources */ = {
+		B1A7741424F0199400D54439 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1E7DDE924DBD03000AC3A05 /* main.cpp in Sources */,
+				B1A7741C24F0199400D54439 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B1E7DDEA24DBD03000AC3A05 /* Debug */ = {
+		B1A7741D24F0199400D54439 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -184,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		B1E7DDEB24DBD03000AC3A05 /* Release */ = {
+		B1A7741E24F0199400D54439 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,10 +235,9 @@
 			};
 			name = Release;
 		};
-		B1E7DDED24DBD03000AC3A05 /* Debug */ = {
+		B1A7742024F0199400D54439 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R4CPN36WQU;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -246,10 +245,9 @@
 			};
 			name = Debug;
 		};
-		B1E7DDEE24DBD03000AC3A05 /* Release */ = {
+		B1A7742124F0199400D54439 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R4CPN36WQU;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -260,25 +258,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B1E7DDE024DBD02F00AC3A05 /* Build configuration list for PBXProject "RomanNumerals" */ = {
+		B1A7741324F0199400D54439 /* Build configuration list for PBXProject "Valid Palindrome" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B1E7DDEA24DBD03000AC3A05 /* Debug */,
-				B1E7DDEB24DBD03000AC3A05 /* Release */,
+				B1A7741D24F0199400D54439 /* Debug */,
+				B1A7741E24F0199400D54439 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B1E7DDEC24DBD03000AC3A05 /* Build configuration list for PBXNativeTarget "RomanNumerals" */ = {
+		B1A7741F24F0199400D54439 /* Build configuration list for PBXNativeTarget "Valid Palindrome" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B1E7DDED24DBD03000AC3A05 /* Debug */,
-				B1E7DDEE24DBD03000AC3A05 /* Release */,
+				B1A7742024F0199400D54439 /* Debug */,
+				B1A7742124F0199400D54439 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B1E7DDDD24DBD02F00AC3A05 /* Project object */;
+	rootObject = B1A7741024F0199400D54439 /* Project object */;
 }
