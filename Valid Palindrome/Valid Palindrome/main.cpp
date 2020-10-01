@@ -9,7 +9,7 @@
 #include<iostream>
 #include<string>
 using namespace std;
-
+//Checking for palidromes.
 bool isPalindrome(string s) {
     if(s.size() == 0) return true;
 
