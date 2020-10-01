@@ -9,7 +9,7 @@
 #include <vector>
 #include <iostream>
 using namespace std;
-
+//validating stocks from the user.
 int maxProfit(vector<int>& prices) {
         if(prices.size()==0) return 0;
         int minimum = prices[0];
